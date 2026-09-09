@@ -1,0 +1,35 @@
+{
+  "purpose": "Read-only source provenance for the service requirements. No runtime access to these paths is needed.",
+  "inputs": [
+    {
+      "name": "codex-service-build-brief.md",
+      "original_path": "/Users/nake/Documents/Codex/2026-09-09/rev/outputs/content-assurance-architecture/codex-service-build-brief.md",
+      "sha256": "4079f99a6a2f08492ff73c50b4c8cc0010c931ec429a5f2e7ed1d51ee1bc98cb",
+      "bytes": 14520
+    },
+    {
+      "name": "content-assurance-platform-architecture.pdf",
+      "original_path": "/Users/nake/Documents/Codex/2026-09-09/rev/outputs/content-assurance-architecture/content-assurance-platform-architecture.pdf",
+      "sha256": "6bd57e732929aae8e78dd8a1d6a6daac332928e382f01a7b80c1854a471a2b7a",
+      "bytes": 76569
+    },
+    {
+      "name": "content-assurance-rubric.docx",
+      "original_path": "/Users/nake/Documents/Codex/2026-09-09/rev/outputs/content-assurance-rubric-v1/content-assurance-rubric.docx",
+      "sha256": "ef1c116c8b2d5ebf0f12912843d4766af698fd304195587208520544d12b9f44",
+      "bytes": 54175
+    },
+    {
+      "name": "content-assurance-scorecard.xlsx",
+      "original_path": "/Users/nake/Documents/Codex/2026-09-09/rev/outputs/content-assurance-rubric-v1/content-assurance-scorecard.xlsx",
+      "sha256": "3927a4144e02cd9e2166707702514dedb992531bb59e865b25f91164f0b92b5c",
+      "bytes": 29380
+    },
+    {
+      "name": "rubric_data.json",
+      "original_path": "/Users/nake/Documents/Codex/2026-09-09/rev/work/rubric_data.json",
+      "sha256": "775a9f852075751fe94541369ec141461d298705fd040250f5204cbc36f6ddf4",
+      "bytes": 14018
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+Content assurance scoring rubric
+A common method for governed creation and content review
+Version 1.0   September 2026
+Use this rubric to assess whether content is supported, accurate, complete, governed, usable and suitable for its audience. It provides a common evaluation language across content types while adapting the weights, evidence and specialist tests to the intended use.
+The method produces a readiness score, six dimension scores, assessment coverage and a release recommendation. Every finding must identify its evidence and required action. A high score never overrides a critical finding or a required approval.
+Status of the method. The criteria, weights and thresholds are proposed operating rules for a pilot. They have not been calibrated on client content. The framework is extensible across content types; individual profiles and modalities become validated only after appropriate expert evaluation.
+What the result tells a client
+Output | Meaning
+Readiness index | Performance against an agreed rubric on a specified content version and assessed scope. It is not a probability of correctness.
+Dimension profile | The strengths and weaknesses that explain the index and direct revision.
+Coverage | How much of the rubric and the planned content examination was completed. Unknowns remain visible.
+Release recommendation | Whether correction, more evidence or named human approval is required. The workbook does not publish content.
+Basis for differentiation
+Build differentiation through evidence linked to individual claims, explicit source applicability, specialist content profiles, expert-adjudicated benchmarks and a record of release decisions. Extend that record so a source change identifies dependent content for reassessment. These are design commitments, not claims that competitors lack these capabilities.
+Own the configured method and the evidence of its performance. Keep client decisions explainable. Establish permissions before reusing client material in shared benchmarks. Naming, exclusivity and intellectual property protection are outside the scope of this rubric.
+How to score consistently
+Agree the content purpose, audience, market, language, version and output format before review. Select a content profile and consequence tier. Record the source and policy versions, required specialist checks and approved exclusions in an evaluation specification. Freeze this specification before viewing scores.
+Rating | Common anchor
+0 | A material failure defeats the requirement or makes the content materially wrong or unusable.
+1 | The requirement is largely unmet and needs major reconstruction.
+2 | The requirement is partly met and needs substantive revision.
+3 | The requirement is met with only minor, nonconsequential defects.
+4 | The requirement is fully met within the assessed scope, with no observed defect.
+Unassessed | No defensible rating is available. Leave the score blank and explain what is missing.
+N/A | The requirement does not apply to the agreed scope. Record the owner-approved reason.
+Use the criterion-specific 0, 2 and 4 anchors on the following pages. Apply 1 and 3 using the common anchors above. A known missing requirement is a defect and receives a low rating; inability to determine whether it is missing is unassessed. Rate the worst material unresolved condition within a criterion, rather than averaging it away across many harmless passages.
+Assign each defect a primary criterion and a severity. Do not deduct twice for the same underlying defect. Where it causes a separate failure of another requirement, document that distinct effect before making a second deduction. Gates may still prevent release without an additional score deduction.
+Calculation
+Within each dimension, applicable criteria have equal weight. The dimension score is the mean of their 0 to 4 ratings multiplied by 25. Profile weights combine the dimensions into a 0 to 100 index. Approved N/A criteria redistribute weight within their dimension; an entirely N/A dimension is removed and the remaining dimension weights are proportionally normalised.
+Issue a point index only when all applicable criteria have a valid rating, a review method and an evidence reference, and the setup is valid. While a criterion is unassessed, show a score interval: the lower bound assigns its weight zero earned points and the upper bound assigns full points. These are mathematical bounds, not statistical confidence intervals.
+Display a rounded whole-number index. Calculate comparisons and thresholds on the unrounded result. Scores can be compared only under the same profile, rubric version, applicability and scope conventions. A change to those conventions starts a new comparison series.
+Content profiles and consequence tiers
+Choose a purpose profile and apply the relevant overlays. A translated manual uses the technical profile plus translation tests. A video advertisement uses the marketing profile plus audio and video tests. The general profile starts a new use; it does not establish validation.
+Profile | E | M | C | G | U | B
+General | 25 | 20 | 20 | 15 | 10 | 10
+Product and commerce | 25 | 25 | 20 | 15 | 10 | 5
+Marketing and sales | 25 | 20 | 15 | 15 | 10 | 15
+Support and knowledge | 25 | 20 | 25 | 15 | 10 | 5
+Technical and procedural | 25 | 25 | 25 | 15 | 5 | 5
+Policy and controlled | 20 | 25 | 20 | 25 | 5 | 5
+Learning and assessment | 20 | 20 | 25 | 15 | 15 | 5
+Editorial and research | 30 | 25 | 15 | 15 | 10 | 5
+Creative and entertainment | 10 | 15 | 20 | 15 | 15 | 25
+Weights are percentages and each row totals 100. E evidence, M meaning, C completeness, G governance, U usability, B brand and market fit. These starting weights express proposed priorities; they are not estimates derived from client outcomes.
+Proposed thresholds for a pilot
+Tier | Index minimum | Every dimension | E M G minimum | Unit coverage
+Low | 80 | 60 | 75 | 90%
+Standard | 85 | 70 | 75 | 95%
+High | 90 | 75 | 90 | 100%
+Low. Limited consequence, reversible use, no critical factual or policy dependency.
+Standard. Customer-facing content with material product, brand or service consequences.
+High. Consequential instructions, commitments or controlled claims; specialist review required.
+All tiers require complete applicable ratings, a minimum of 3 for every applicable criterion, every identified critical unit verified, no open critical or major findings, applicable gates complete and named human approval. High consequence content also requires recorded specialist review. Keep profile weights positive; use approved N/A to exclude a requirement.
+Define coverage before testing
+Rubric coverage is the share of applicable criterion weight with a defensible rating. Content unit coverage is the number of completed planned examinations divided by the full planned inventory. Define a unit as one content item tested against one applicable requirement, such as a claim against its source or a caption against its spoken passage. Do not use tokens or words as a substitute.
+Freeze the inventory, include all modalities and audit extraction for missed requirements. Checks that cannot run stay in the denominator. An incomplete inventory means unknown coverage. Record coverage by modality and criticality; the workbook shows the total and remaining unverified critical units.
+Evidence and source fitness
+Can we substantiate this content with sources appropriate to its use?
+E1 Source authority and currency
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A material source is known to be obsolete, unauthorised or inapplicable. | Some sources need replacement or approval before use. | Every material source is approved, current and applicable to this use.
+Evidence: Source register with owner, approval, effective date and product or market scope.
+E2 Support for factual claims
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A material claim is contradicted or fabricated. | Several material claims have weak or incomplete support. | Every material factual claim is supported at the specificity asserted.
+Evidence: Claim inventory and source passages or authoritative records that support each material claim.
+E3 Traceability of evidence
+0 Material failure | 2 Substantive revision | 4 Requirement met
+Presented evidence cannot be traced or a citation is fabricated. | Evidence exists but important claim-to-source links require reconstruction. | A reviewer can directly trace each material claim to the exact supporting evidence.
+Evidence: Stable source links with page, passage, cell, record or timestamp references.
+E4 Resolution of conflicting sources
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The content adopts a material claim despite unresolved contradictory evidence. | Some conflicts are identified but their treatment needs revision. | Relevant conflicts are resolved or explicitly disclosed with an approved treatment.
+Evidence: Conflict register, source precedence rule and recorded adjudication.
+Meaning and factual integrity
+Does it preserve the facts, qualifications and relationships that matter?
+M1 Facts quantities and identities
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A material value, identity, calculation or relationship is wrong. | Multiple inaccuracies require repair but the central account remains recoverable. | Checked facts and relationships are accurate, including equivalent reformulations.
+Evidence: Comparison of names, dates, quantities, units, calculations, entities and product variants.
+M2 Qualifications and claim scope
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A changed qualification reverses or materially overstates the claim. | Some qualifications or boundaries are incomplete or misleading. | All material conditions, uncertainty and limits are preserved or accurately stated.
+Evidence: Comparison of uncertainty, conditions, exceptions, causality, negation and population scope.
+M3 Consistency across the content set
+0 Material failure | 2 Substantive revision | 4 Requirement met
+Contradictory statements could produce materially different actions. | Several inconsistencies require reconciliation. | No substantive contradictions exist across the assessed content set.
+Evidence: Cross-section, cross-channel, cross-version and cross-language comparisons in declared scope.
+M4 Faithful representation
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A representation changes a material fact or implies an unsupported result. | Some representations omit context or need meaningful correction. | All assessed representations preserve meaning and make transformations clear.
+Evidence: Check of summaries, translations, charts, tables, illustrations, captions and transcripts.
+Completeness and task success
+Does it fulfil the brief and enable the intended task?
+C1 Purpose and audience task
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The content does not answer the central request or enable the intended task. | It addresses the purpose only partially and needs substantive revision. | It fulfils the brief and enables the stated audience task.
+Evidence: Approved brief and observable acceptance criteria for the intended task.
+C2 Required information
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A missing essential item prevents correct use or understanding. | Several required items are missing or underdeveloped. | All applicable required information is present at sufficient depth.
+Evidence: Requirement checklist covering facts, sections, warnings, explanations and deliverables.
+C3 Actionability and sequence
+0 Material failure | 2 Substantive revision | 4 Requirement met
+An impossible or incorrect sequence prevents or misdirects the task. | The user must infer important steps or dependencies. | Actions and dependencies are explicit, feasible and ordered for the intended user.
+Evidence: Walkthrough or domain review of prerequisites, steps, decisions and outputs.
+C4 Boundaries and escalation
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A necessary boundary or escalation is absent and enables a material misuse. | Some important edge cases or escalation instructions are incomplete. | Relevant limits, exceptions and escalation paths are clear and usable.
+Evidence: Brief-defined edge cases, exclusions, failure paths and human escalation requirements.
+Governance and permissions
+Does it meet the applicable rules and have accountable ownership?
+G1 Policy and required wording
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The content violates an applicable non-negotiable policy requirement. | Policy requirements need substantive correction or completion. | All applicable policy requirements and mandatory wording are satisfied.
+Evidence: Versioned client policy pack, mandatory text and applicability assessment.
+G2 Permissions and appropriate disclosure
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The content exposes prohibited information or uses an asset without required permission. | Noncritical permissions or disclosures require clarification or revision. | Use, disclosure and permissions meet the documented requirements.
+Evidence: Evidence of permitted data use, asset rights, confidentiality scope and required disclosure.
+G3 Ownership and review readiness
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A required accountable owner or review process is absent. | Ownership exists but required review material or responsibilities are incomplete. | Ownership is clear and all required pre-release review material is complete.
+Evidence: Named content owner, reviewer responsibility and complete specialist review evidence.
+G4 Version and provenance record
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The assessed content cannot be tied to the version intended for release. | The record has gaps that impede reproduction of the decision. | The content and its evidence, rules and changes have a reproducible version record.
+Evidence: Content version, source and policy versions, production method and change history.
+Usability and accessibility
+Can the intended audience perceive, understand and use it?
+U1 Clarity and cognitive effort
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The intended audience cannot reliably understand the essential message. | Dense or ambiguous wording requires substantive rewriting. | The content is clear and appropriately concise for the intended audience.
+Evidence: Audience-specific editorial review or comprehension task with examples.
+U2 Structure and navigation
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The structure prevents discovery of essential information. | Important information is difficult to locate or poorly ordered. | Users can find and follow the information in a logical sequence.
+Evidence: Rendered content showing hierarchy, labels, ordering and findability.
+U3 Accessibility requirements
+0 Material failure | 2 Substantive revision | 4 Requirement met
+An essential part is inaccessible to an intended user group. | Applicable accessibility requirements need substantive remediation. | The declared accessibility requirements have been checked and satisfied in scope.
+Evidence: Applicable accessibility test plan with manual and automated results by modality.
+U4 Delivery and functional integrity
+0 Material failure | 2 Substantive revision | 4 Requirement met
+A broken output or interaction prevents the intended use. | Several rendering or functional defects require repair. | The content displays and functions as specified in the target environment.
+Evidence: Rendered output and functional checks of links, fields, layouts, schemas and interactions.
+Brand and market fit
+Does it use the right voice, terminology and market conventions?
+B1 Voice and editorial style
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The voice is incompatible with the intended brand or audience relationship. | Tone and editorial choices need substantial adjustment. | The voice consistently meets the stated brand and editorial requirements.
+Evidence: Approved style guide and representative examples with audience context.
+B2 Terminology and naming
+0 Material failure | 2 Substantive revision | 4 Requirement met
+Terminology materially misidentifies a product or concept. | Several terms or names conflict with the approved conventions. | Terminology and naming are consistent with the applicable approved resources.
+Evidence: Approved terminology, product names, forbidden terms and approved exceptions.
+B3 Market and cultural suitability
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The content is materially inappropriate or misleading for its intended market. | Conventions or cultural assumptions need meaningful adaptation. | Content and conventions suit the intended market without changing authorised meaning.
+Evidence: Review of locale conventions, audience interpretation and market-specific requirements.
+B4 Channel and creative execution
+0 Material failure | 2 Substantive revision | 4 Requirement met
+The execution is unsuitable for the channel or defeats the creative brief. | It meets some channel requirements but needs substantial editorial or creative work. | It meets the channel and creative brief with coherent, effective execution.
+Evidence: Channel brief, format constraints and expert judgment against creative acceptance criteria.
+Formats markets and specialist overlays
+The core dimensions apply to the evaluation question. An overlay specifies how to examine a particular format, market or consequential use. An unavailable overlay is an assessment gap and must not be represented as a passing check.
+Translation and adaptation
+Use the purpose profile. Add source-to-target claim equivalence, terminology, locale and market approval tests. Validate each language pair separately.
+Images and charts
+Inspect visual claims, axes, scales, labels, depicted product variants and implied results. Assess rights and alternatives. Extraction quality is part of coverage.
+Audio and video
+Check script, spoken output, on-screen text, captions, timing and audio descriptions together. A transcript-only review cannot cover the whole asset.
+Interactive content and agents
+Define user journeys, states, answer classes and escalation paths. Test retrieval and final responses separately. Report sampled paths and failure conditions.
+Structured data and code-like content
+Check field meanings, schema, units, missing values and consuming-system behaviour. Software correctness and security require specialist methods outside this rubric.
+Creative and fictional content
+Assess invented events against the creative brief and internal continuity. Mark factual-support requirements N/A only where approved; real-world claims, rights and disclosures still apply.
+Controlled or high consequence use
+Require a domain owner, an approved policy pack and specialist review. A high score alone establishes neither regulatory conformance nor suitability for consequential use.
+Source quality and factual support
+Source approval is a governance fact, not proof that the source is true. Check that evidence is authoritative for the claim, current for the product and market, and sufficiently specific. Record conflicts and escalate them to the source owner. Where external verification is required by the specification, an internal approved document alone is insufficient.
+A media provenance record establishes aspects of origin and editing history. It does not establish the truth of what is depicted. Similarly, a high accessibility rating under this rubric does not replace an applicable conformance assessment. [4–6]
+Release gates and finding severity
+Record Pass, Fail, Unknown or an approved N/A for each gate, with evidence. Scope confirmation and final owner approval cannot be N/A. Unknown is unresolved. The current workbook requires human sign-off for every release recommendation.
+R1 Scope and applicability confirmed. The owner confirms the content inventory, all relevant modalities, assessment units, profile, exclusions and N/A decisions before scoring.
+R2 Critical facts and instructions verified. All identified critical claims, quantities, conditions and action paths have been reviewed; none remains unsupported or contradicted.
+R3 Mandatory rules satisfied. All applicable mandatory wording, restrictions, safety information and escalation rules have been verified.
+R4 Permissions and disclosure confirmed. Required permissions, confidentiality controls and disclosures have been checked for this use.
+R5 Essential access and function checked. Essential accessibility, representation and functional requirements have been checked in the delivered format.
+R6 Current release record complete. The intended content version, current sources and rules, reviewer record and required specialist reviews are linked.
+R7 Final accountable approval recorded. The named release owner has reviewed the assessment and explicitly approved this exact content version.
+Severity | Meaning | Required treatment
+Critical | Could cause serious harm, a material false commitment, prohibited disclosure or another non-negotiable failure in the agreed context. | Hold for correction or specialist resolution. Never offset with other scores.
+Major | Prevents an important task, omits required information or materially misleads the audience. | Revise and verify the correction before approval.
+Minor | A local defect with no material effect on meaning, task completion or a mandatory rule. | Correct or record the owner-approved disposition.
+Preference | A stylistic alternative that does not breach the specification. | Record separately. Do not deduct or inflate defect counts.
+Routing precedence. A failed gate or open critical finding requires correction. Otherwise, invalid or incomplete inputs require completion; unverified critical units or unresolved pre-release gates require evidence. Open major findings or criterion ratings below 3 require revision. Threshold failures require revision or broader review. Only then can the result await final owner approval.
+A resolved finding stays in the record with correction evidence and reviewer verification. A model suggestion alone is not an adjudicated critical defect. Unresolved consequential uncertainty is held for specialist review. Final approval records the owner and exact content version; it does not erase findings or change the calculated score.
+Worked examples
+A high score with a failed release gate
+Illustrative marketing asset. All criteria receive 4 except G2, which receives 0 because the asset uses a photograph without the permission required for that use. This is one defect assigned to one criterion. All other facts and requirements in this example are satisfied.
+Dimension | Weight | Score | Weighted points
+Evidence | 25 | 100 | 25
+Meaning | 20 | 100 | 20
+Completeness | 15 | 100 | 15
+Governance | 15 | 75 | 11.25
+Usability | 10 | 100 | 10
+Brand and market | 15 | 100 | 15
+Total | 100 |  | 96.25
+Displayed index: 96. Rubric and planned unit coverage: 100%. Gate R4 fails. Recommendation: hold for correction. The result illustrates why an average cannot authorise release on its own.
+Strong assessed content with missing evidence
+Illustrative general-profile review. All four evidence criteria are unassessed because the source pack is unavailable. The other five dimensions receive 100. Evidence carries 25% of the weight, so rubric coverage is 75% and the score interval is 75 to 100. The headline index is not issued. Required checks and source confirmation remain unresolved.
+A claim that retains its number but changes its meaning
+Approved evidence: up to 18% lower energy consumption under specified test conditions. Draft: cuts every customer’s energy bills by 18%. The wording converts a maximum into a guarantee, consumption into cost and a bounded test into a universal claim.
+Record the principal defect under M2 for changed scope and qualifications, and identify the exact source and draft passages. Set severity according to the agreed consequence tier. If separate unsupported cost evidence is also a distinct requirement failure, record it under E2 and explain the separate effect. Recheck every affected channel and language after correction.
+These examples demonstrate the arithmetic and decision logic. They do not estimate the frequency of these failures or the system’s ability to detect them.
+Operating workflow and validation
+1 Define the specification. The content owner approves purpose, sources, policies, profile, consequence tier, assessment units and exclusions. The method owner maintains rubric versions and profile rules.
+2 Create within the specification. Give the creator approved facts, required content and constraints. Record the sources used. Separate the act of generation from the evaluation decision.
+3 Examine the output. Combine deterministic checks, model-assisted checks and expert judgment. Inspect the rendered format. Record a locator, evidence and method for every rating and finding.
+4 Adjudicate and revise. Review ambiguous or consequential findings, verify corrections and retain the decision history. Expert reviewers can change a finding with a reason; they do not overwrite a formula to obtain a preferred score.
+5 Approve the exact version. Run the score and gates, then obtain the named owner’s decision. Provisional methods operate with human approval. Any material edit after approval requires reassessment.
+6 Maintain the content. A changed source, policy, product, market or delivery format triggers review of dependent content. This requires a maintained dependency record beyond the spreadsheet.
+Earn validation for each use
+Begin with two bounded profiles, such as product information and support knowledge. Build representative examples containing natural defects, deliberately planted edge cases and valid variations. Include complete documents, tables and relevant modalities. Split evaluation data by independent document or source family so near-duplicates do not appear across development and test sets.
+Have domain-qualified reviewers independently assess a sample and adjudicate disagreements. Compare the method with the current workflow at the same content scope. Measure agreement by criterion, critical and major misses, unnecessary referrals, reviewer minutes and correction effort. Audit content the system would pass, not only its findings. Report sample size, uncertainty and results separately by profile, language, market and modality.
+Initial weights and thresholds are hypotheses. Adjust them on development data against a client-agreed consequence and workload objective, then evaluate the frozen version on held-out data. Do not label an index as calibrated risk until it has a demonstrated relationship to observed outcomes. New models, rules or distributions require regression checks and reassessment.
+Validation labels
+Provisional: proposed method without deployment evidence. Pilot evaluated: independently reviewed results in a bounded use. Validated for stated scope: predefined acceptance criteria met on held-out representative data. Monitored in operation: ongoing sampling and change controls remain in place. These describe the method’s evidence, not certainty about an individual asset.
+Implementation and market proposition
+What to reuse and what to build
+Smart Routing supplies a useful starting pattern: specific checks, explicit abstention, evidence presentation and a separate routing rule. Reuse those ideas. Add a source and policy register, claim and requirement extraction, preservation of table and media relationships, versioned scoring profiles, persistent review decisions and dependency tracking. Do not assume those additions exist in the current demo. [1]
+The companion workbook is a human-operated pilot tool. It calculates scores, coverage and routing recommendations from entered judgments. It does not inspect content, validate the truth of evidence references, authenticate approvers, enforce document access or maintain a complete content dependency graph. Those are requirements for an operational service.
+Minimum assessment record
+Keep a content ID and version; profile and rubric version; audience, market and language; source and policy versions; evaluation scope and planned units; check IDs, methods and versions; exact content and evidence locators; criterion ratings; findings and severity; abstention reasons; corrections; reviewer and final owner decisions; and the next review trigger. Store retained client data within the agreed permissions and access controls.
+A defensible commercial offer
+Offer clients content assessed against their approved knowledge and policies, with evidence explaining what was checked, what needs revision and who approved release. Build differentiation through the quality of specialist profiles, reviewer decisions and measured outcomes. Avoid claiming universal truth, regulatory certification, autonomous safety or market superiority from this initial rubric.
+Package an initial knowledge and content assessment, governed creation and review, and ongoing reassessment as sources change. Report approval time, revision effort, substantiated claims, unresolved critical issues and observed escaped defects. Do not use an average portfolio score to conceal a weak market, modality or consequential content category.
+Reference basis
+The scoring design, weights, anchors and thresholds in this document are proposed for this company’s pilot. The sources below inform selected concepts and do not endorse or validate the rubric. Accessed 9 September 2026.
+[1] Smart Routing demo. Reuse specific checks, explicit abstention, evidence and routing separation. Broader capabilities in this rubric are proposed extensions.
+https://smart-routing-arbitr.vercel.app/how
+[2] Microsoft RAG evaluators. Distinguishes grounding, relevance, completeness and retrieval evaluation. Does not validate this rubric or its weights.
+https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators
+[3] Google DeepMind long form factuality. Supports analysing individual factual claims and their evidence. No research performance figures are imported into this rubric.
+https://deepmind.google/research/publications/85420/
+[4] NIST Generative AI Profile. Context for lifecycle governance and measurement. This rubric is not a certification against the profile.
+https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+[5] W3C WCAG 2.2. Source for an applicable web accessibility test plan. A rubric rating alone is not a WCAG conformance assessment.
+https://www.w3.org/TR/WCAG22/
+[6] C2PA Content Credentials explainer. Context for provenance records. Content provenance does not establish factual truth.
+https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html

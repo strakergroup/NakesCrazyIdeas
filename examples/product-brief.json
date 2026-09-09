@@ -1,0 +1,18 @@
+{
+  "title": "Example product brief",
+  "purpose": "Provide product warranty and support information",
+  "audience": "Device owners",
+  "acceptance_criteria": ["Identify the product, state the approved warranty duration and explain support escalation"],
+  "owner_id": "REPLACE_WITH_NAMED_OWNER_ID",
+  "profile": "Product and commerce",
+  "tier": "Standard",
+  "market": "IE",
+  "language": "en",
+  "policy_key": "REPLACE_WITH_REGISTERED_POLICY_KEY",
+  "source_keys": ["REPLACE_WITH_REGISTERED_SOURCE_KEY"],
+  "required_fields": ["/name", "/warranty", "/support"],
+  "required_text": ["Contact support"],
+  "structured_values": [{"path": "/warranty", "expected": "24 months"}],
+  "declared_modalities": ["text"],
+  "allow_external_processing": false
+}

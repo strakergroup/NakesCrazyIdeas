@@ -1,0 +1,166 @@
+PAGE 1
+Content assurance
+as a platform service
+Implementation architecture for governed content creation and checking
+I would build an API-backed Content Assurance Service into your platform, with rules, models and
+human review working together. The rubric would become executable software, and every content version
+would carry an assessment record.
+A small model would handle selected checks inside that service. The scoring formula, required checks and
+permission to publish would live in ordinary, testable code.
+The important product decision is this: assessment becomes a required stage in your content lifecycle.
+ Upload, import, create or edit content
+ Register the exact content version
+ Identify purpose, format, market
+ and required checks
+ Run rules and model checks
+ Calculate scores, coverage and findings
+ Release requirements satisfied?
+ Approved sources
+and client policies
+ Revise or request
+ expert review
+No / unknown
+ Record approval
+and permit release
+Yes
+ Source or policy
+ change:
+reassess affected
+ content
+I would implement it in six connected parts.
+The following pages describe the content record, governed sources, specialised checkers, automatic
+triggers, API and review system.
+Content Assurance Service | Implementation architecture
+1 / 4
+
+PAGE 2
+1. A common content record
+Every uploaded file, generated answer, translation, image or edited page gets an ID and an immutable
+version.
+The record includes its purpose, audience, language, market, owner, approved sources and applicable
+policy. These determine which rubric profile and checks apply.
+Different formats need different preparation:
+Content
+What the assessment needs
+Articles, marketing copy, translations
+Claims, paragraphs, terminology and source relationships
+Product records and structured data
+Fields, units, allowed values and relationships between records
+PDFs and presentations
+Text plus tables, figures, layout and page references
+Audio and video
+Transcript, timestamps, relevant visuals and accessibility information
+Interactive experiences
+Content plus tested user journeys and behaviour
+A video transcript alone cannot establish that the video passes. Unsupported or unsuccessfully extracted
+material remains visibly unassessed.
+2. A governed source and policy service
+This is central to the business you want to become.
+For each client, maintain approved facts, product information, terminology, brand guidance, required
+statements and source permissions - with versions and effective dates.
+Ingested material starts as candidate knowledge. It does not automatically become an authoritative source
+merely because someone uploaded it or because your platform generated it.
+The checking system then asks separate questions:
+• Is this source appropriate and current?
+ 
+• Does the source actually support this claim?
+ 
+• Has the content included everything the brief requires?
+ 
+Grounding and completeness require separate checks: content can accurately repeat a source while omitting
+something essential. Microsoft's evaluation guidance makes this distinction explicitly. [1]
+Content Assurance Service | Implementation architecture
+2 / 4
+
+PAGE 3
+3. A set of specialised checkers
+I would assign work according to what can reliably perform it.
+Mechanism
+Its job
+Conventional code
+Required fields, exact mandated text, numerical calculations, unit conversions,
+source expiry and approval records
+Small language model
+Candidate claim extraction, classification, terminology and narrowly defined
+language checks
+More capable model
+Qualifications, contradictions, complex source comparisons and ambiguous
+meaning
+Format-specific tools
+Document parsing, speech transcription, visual inspection and accessibility tests
+Human specialist
+Consequential ambiguity, unsupported decisions and accountable approval
+Each checker returns a structured finding: what was checked, the result, the relevant passage,
+supporting evidence and any uncertainty.
+Models can propose criterion ratings. Code validates the response and calculates the rubric's weights,
+coverage, minimum requirements and release gates.
+I would start with existing models and benchmark them against your content. Routing simpler work to smaller
+models and escalating harder cases is an established implementation pattern, but the routing must be tested
+for your languages and content profiles. [2]
+4. Automatic triggers and an enforced release check
+This is how you make sure it runs on everything.
+Platform event
+What happens
+Upload or import
+Register the asset and queue its assessment
+Generate content
+Supply approved context before generation; assess the resulting draft
+Save an edit
+Create a new version and reassess affected requirements
+Translate or adapt
+Assess the derivative and its relationship to the source
+Publish, export or deliver
+Verify that the exact version has the required assessment and approval
+Change a source or policy
+Mark dependent assessments stale and queue reassessment
+The release check must sit in the backend. A warning badge in the editor cannot prevent an integration or
+another publishing route from bypassing it.
+I would also save the content version and its assessment request together, so a temporary queue failure
+cannot silently lose the request. Retries must safely handle duplicate jobs. This is the problem addressed by
+the transactional outbox pattern. [3]
+During an outage, content can remain saved as a draft. Its assessment stays pending.
+Content Assurance Service | Implementation architecture
+3 / 4
+
+PAGE 4
+5. An API that exposes the assessment lifecycle
+The initial interface could be quite small:
+Operation
+Purpose
+Submit a content version
+Store its context and start assessment
+Retrieve an assessment
+Return scores, coverage, findings and status
+Record a review decision
+Capture the authorised reviewer's decision and evidence
+Request release
+Check the exact version against current requirements
+Long documents and media would run in background jobs, with completion notifications back to your
+platform. Quick checks could provide feedback while someone edits.
+For live generated answers, you need a deliberate delivery policy: if an answer must be checked before a
+customer sees it, hold it until the required checks finish. Checking after tokens have streamed is monitoring,
+not prevention.
+6. A review and learning system
+The interface should show the exact problem beside the evidence, with a proposed correction and a
+recorded reviewer decision.
+Those reviewed decisions become valuable training and evaluation data. Initially, I would retain the human
+approval requirement in our rubric. Automation can expand for specific uses only after measuring missed
+defects, unnecessary referrals and review effort - including audits of content the system would pass.
+Client knowledge, retrieval and assessment records should remain separated by permissions. Content being
+inspected must not be able to change the checking rules or approve itself.
+Where a proprietary small model fits
+I would consider training or fine-tuning one later, once you have enough adjudicated examples for a narrow
+task - such as detecting altered product qualifications across selected languages.
+Your defensible asset would be the combination of client rules, evidence relationships, specialist
+judgments and measured performance. A specialised model can embody some of that expertise; it does
+not replace the surrounding system.
+My first implementation would connect the existing rubric to product information and support content, with
+source retrieval, automated checks, a review queue and an enforced publishing gate. The architecture would
+accept additional formats from the outset, while each format's automated checking capability is introduced
+and validated separately.
+Linked sources
+[1] Microsoft - Retrieval-Augmented Generation evaluators
+[2] Anthropic - Building effective agents
+[3] AWS - Transactional outbox pattern
+Content Assurance Service | Implementation architecture
+4 / 4

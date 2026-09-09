@@ -1,0 +1,11 @@
+{
+  "brief_id": "REPLACE_WITH_APPROVED_BRIEF_ID",
+  "title": "Example product warranty",
+  "format": "application/json",
+  "origin": "created",
+  "content": {
+    "name": "Example device",
+    "warranty": "two years",
+    "support": "Contact support if the device fails."
+  }
+}

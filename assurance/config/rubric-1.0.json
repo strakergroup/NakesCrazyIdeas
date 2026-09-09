@@ -1,0 +1,80 @@
+{
+  "version": "1.0",
+  "date": "2026-09-09",
+  "dimensions": [
+    ["E", "Evidence and source fitness", "Can we substantiate this content with sources appropriate to its use?"],
+    ["M", "Meaning and factual integrity", "Does it preserve the facts, qualifications and relationships that matter?"],
+    ["C", "Completeness and task success", "Does it fulfil the brief and enable the intended task?"],
+    ["G", "Governance and permissions", "Does it meet the applicable rules and have accountable ownership?"],
+    ["U", "Usability and accessibility", "Can the intended audience perceive, understand and use it?"],
+    ["B", "Brand and market fit", "Does it use the right voice, terminology and market conventions?"]
+  ],
+  "profiles": [
+    ["General",25,20,20,15,10,10],
+    ["Product and commerce",25,25,20,15,10,5],
+    ["Marketing and sales",25,20,15,15,10,15],
+    ["Support and knowledge",25,20,25,15,10,5],
+    ["Technical and procedural",25,25,25,15,5,5],
+    ["Policy and controlled",20,25,20,25,5,5],
+    ["Learning and assessment",20,20,25,15,15,5],
+    ["Editorial and research",30,25,15,15,10,5],
+    ["Creative and entertainment",10,15,20,15,15,25]
+  ],
+  "risks": [
+    ["Low",80,60,75,0.90,"Limited consequence, reversible use, no critical factual or policy dependency."],
+    ["Standard",85,70,75,0.95,"Customer-facing content with material product, brand or service consequences."],
+    ["High",90,75,90,1.00,"Consequential instructions, commitments or controlled claims; specialist review required."]
+  ],
+  "criteria": [
+    ["E1","E","Source authority and currency","Yes","Source register with owner, approval, effective date and product or market scope.","A material source is known to be obsolete, unauthorised or inapplicable.","Some sources need replacement or approval before use.","Every material source is approved, current and applicable to this use."],
+    ["E2","E","Support for factual claims","Yes","Claim inventory and source passages or authoritative records that support each material claim.","A material claim is contradicted or fabricated.","Several material claims have weak or incomplete support.","Every material factual claim is supported at the specificity asserted."],
+    ["E3","E","Traceability of evidence","No","Stable source links with page, passage, cell, record or timestamp references.","Presented evidence cannot be traced or a citation is fabricated.","Evidence exists but important claim-to-source links require reconstruction.","A reviewer can directly trace each material claim to the exact supporting evidence."],
+    ["E4","E","Resolution of conflicting sources","No","Conflict register, source precedence rule and recorded adjudication.","The content adopts a material claim despite unresolved contradictory evidence.","Some conflicts are identified but their treatment needs revision.","Relevant conflicts are resolved or explicitly disclosed with an approved treatment."],
+    ["M1","M","Facts quantities and identities","Yes","Comparison of names, dates, quantities, units, calculations, entities and product variants.","A material value, identity, calculation or relationship is wrong.","Multiple inaccuracies require repair but the central account remains recoverable.","Checked facts and relationships are accurate, including equivalent reformulations."],
+    ["M2","M","Qualifications and claim scope","Yes","Comparison of uncertainty, conditions, exceptions, causality, negation and population scope.","A changed qualification reverses or materially overstates the claim.","Some qualifications or boundaries are incomplete or misleading.","All material conditions, uncertainty and limits are preserved or accurately stated."],
+    ["M3","M","Consistency across the content set","No","Cross-section, cross-channel, cross-version and cross-language comparisons in declared scope.","Contradictory statements could produce materially different actions.","Several inconsistencies require reconciliation.","No substantive contradictions exist across the assessed content set."],
+    ["M4","M","Faithful representation","No","Check of summaries, translations, charts, tables, illustrations, captions and transcripts.","A representation changes a material fact or implies an unsupported result.","Some representations omit context or need meaningful correction.","All assessed representations preserve meaning and make transformations clear."],
+    ["C1","C","Purpose and audience task","Yes","Approved brief and observable acceptance criteria for the intended task.","The content does not answer the central request or enable the intended task.","It addresses the purpose only partially and needs substantive revision.","It fulfils the brief and enables the stated audience task."],
+    ["C2","C","Required information","Yes","Requirement checklist covering facts, sections, warnings, explanations and deliverables.","A missing essential item prevents correct use or understanding.","Several required items are missing or underdeveloped.","All applicable required information is present at sufficient depth."],
+    ["C3","C","Actionability and sequence","No","Walkthrough or domain review of prerequisites, steps, decisions and outputs.","An impossible or incorrect sequence prevents or misdirects the task.","The user must infer important steps or dependencies.","Actions and dependencies are explicit, feasible and ordered for the intended user."],
+    ["C4","C","Boundaries and escalation","No","Brief-defined edge cases, exclusions, failure paths and human escalation requirements.","A necessary boundary or escalation is absent and enables a material misuse.","Some important edge cases or escalation instructions are incomplete.","Relevant limits, exceptions and escalation paths are clear and usable."],
+    ["G1","G","Policy and required wording","Yes","Versioned client policy pack, mandatory text and applicability assessment.","The content violates an applicable non-negotiable policy requirement.","Policy requirements need substantive correction or completion.","All applicable policy requirements and mandatory wording are satisfied."],
+    ["G2","G","Permissions and appropriate disclosure","Yes","Evidence of permitted data use, asset rights, confidentiality scope and required disclosure.","The content exposes prohibited information or uses an asset without required permission.","Noncritical permissions or disclosures require clarification or revision.","Use, disclosure and permissions meet the documented requirements."],
+    ["G3","G","Ownership and review readiness","Yes","Named content owner, reviewer responsibility and complete specialist review evidence.","A required accountable owner or review process is absent.","Ownership exists but required review material or responsibilities are incomplete.","Ownership is clear and all required pre-release review material is complete."],
+    ["G4","G","Version and provenance record","Yes","Content version, source and policy versions, production method and change history.","The assessed content cannot be tied to the version intended for release.","The record has gaps that impede reproduction of the decision.","The content and its evidence, rules and changes have a reproducible version record."],
+    ["U1","U","Clarity and cognitive effort","No","Audience-specific editorial review or comprehension task with examples.","The intended audience cannot reliably understand the essential message.","Dense or ambiguous wording requires substantive rewriting.","The content is clear and appropriately concise for the intended audience."],
+    ["U2","U","Structure and navigation","No","Rendered content showing hierarchy, labels, ordering and findability.","The structure prevents discovery of essential information.","Important information is difficult to locate or poorly ordered.","Users can find and follow the information in a logical sequence."],
+    ["U3","U","Accessibility requirements","No","Applicable accessibility test plan with manual and automated results by modality.","An essential part is inaccessible to an intended user group.","Applicable accessibility requirements need substantive remediation.","The declared accessibility requirements have been checked and satisfied in scope."],
+    ["U4","U","Delivery and functional integrity","No","Rendered output and functional checks of links, fields, layouts, schemas and interactions.","A broken output or interaction prevents the intended use.","Several rendering or functional defects require repair.","The content displays and functions as specified in the target environment."],
+    ["B1","B","Voice and editorial style","No","Approved style guide and representative examples with audience context.","The voice is incompatible with the intended brand or audience relationship.","Tone and editorial choices need substantial adjustment.","The voice consistently meets the stated brand and editorial requirements."],
+    ["B2","B","Terminology and naming","No","Approved terminology, product names, forbidden terms and approved exceptions.","Terminology materially misidentifies a product or concept.","Several terms or names conflict with the approved conventions.","Terminology and naming are consistent with the applicable approved resources."],
+    ["B3","B","Market and cultural suitability","No","Review of locale conventions, audience interpretation and market-specific requirements.","The content is materially inappropriate or misleading for its intended market.","Conventions or cultural assumptions need meaningful adaptation.","Content and conventions suit the intended market without changing authorised meaning."],
+    ["B4","B","Channel and creative execution","No","Channel brief, format constraints and expert judgment against creative acceptance criteria.","The execution is unsuitable for the channel or defeats the creative brief.","It meets some channel requirements but needs substantial editorial or creative work.","It meets the channel and creative brief with coherent, effective execution."]
+  ],
+  "gates": [
+    ["R1","Scope and applicability confirmed","The owner confirms the content inventory, all relevant modalities, assessment units, profile, exclusions and N/A decisions before scoring."],
+    ["R2","Critical facts and instructions verified","All identified critical claims, quantities, conditions and action paths have been reviewed; none remains unsupported or contradicted."],
+    ["R3","Mandatory rules satisfied","All applicable mandatory wording, restrictions, safety information and escalation rules have been verified."],
+    ["R4","Permissions and disclosure confirmed","Required permissions, confidentiality controls and disclosures have been checked for this use."],
+    ["R5","Essential access and function checked","Essential accessibility, representation and functional requirements have been checked in the delivered format."],
+    ["R6","Current release record complete","The intended content version, current sources and rules, reviewer record and required specialist reviews are linked."],
+    ["R7","Final accountable approval recorded","The named release owner has reviewed the assessment and explicitly approved this exact content version."]
+  ],
+  "overlays": [
+    ["Translation and adaptation","Use the purpose profile. Add source-to-target claim equivalence, terminology, locale and market approval tests. Validate each language pair separately."],
+    ["Images and charts","Inspect visual claims, axes, scales, labels, depicted product variants and implied results. Assess rights and alternatives. Extraction quality is part of coverage."],
+    ["Audio and video","Check script, spoken output, on-screen text, captions, timing and audio descriptions together. A transcript-only review cannot cover the whole asset."],
+    ["Interactive content and agents","Define user journeys, states, answer classes and escalation paths. Test retrieval and final responses separately. Report sampled paths and failure conditions."],
+    ["Structured data and code-like content","Check field meanings, schema, units, missing values and consuming-system behaviour. Software correctness and security require specialist methods outside this rubric."],
+    ["Creative and fictional content","Assess invented events against the creative brief and internal continuity. Mark factual-support requirements N/A only where approved; real-world claims, rights and disclosures still apply."],
+    ["Controlled or high consequence use","Require a domain owner, an approved policy pack and specialist review. A high score alone establishes neither regulatory conformance nor suitability for consequential use."]
+  ],
+  "sources": [
+    ["Smart Routing demo","Reuse specific checks, explicit abstention, evidence and routing separation. Broader capabilities in this rubric are proposed extensions.","https://smart-routing-arbitr.vercel.app/how"],
+    ["Microsoft RAG evaluators","Distinguishes grounding, relevance, completeness and retrieval evaluation. Does not validate this rubric or its weights.","https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators"],
+    ["Google DeepMind long form factuality","Supports analysing individual factual claims and their evidence. No research performance figures are imported into this rubric.","https://deepmind.google/research/publications/85420/"],
+    ["NIST Generative AI Profile","Context for lifecycle governance and measurement. This rubric is not a certification against the profile.","https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence"],
+    ["W3C WCAG 2.2","Source for an applicable web accessibility test plan. A rubric rating alone is not a WCAG conformance assessment.","https://www.w3.org/TR/WCAG22/"],
+    ["C2PA Content Credentials explainer","Context for provenance records. Content provenance does not establish factual truth.","https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html"]
+  ]
+}
