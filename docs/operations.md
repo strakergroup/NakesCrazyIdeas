@@ -2,6 +2,8 @@
 
 This is locally runnable pilot software, not a production-readiness certification. `CAS_MODE=production` rejects fixture providers and development credentials; it does not supply the infrastructure and controls listed below.
 
+For Arbitr deployment, the [stack compatibility and integration design](arbitr-stack-compatibility.md) specifies the PostgreSQL port, Redis queue/cache split, gateway identity and delivery acceptance checks. Follow the monorepo's Pipenv, Docker and Make conventions when integrating; the local commands below apply to this standalone pilot.
+
 ## Local configuration
 
 | Variable | Default | Meaning |

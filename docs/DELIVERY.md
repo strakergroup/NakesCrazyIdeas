@@ -1,5 +1,7 @@
 # Delivery verification
 
+The subsequent [Arbitr stack review](arbitr-stack-compatibility.md) inspected `cloud-product-y-mono` at commit `66025d47971cf436a75618887a49eb02584a7f2c` and updated the integration design. That revision changes documentation only. It does not add or verify PostgreSQL, Redis, platform authentication, Nuxt or external delivery adapters.
+
 The final build passed 90 automated tests, with one deliberately skipped live-provider smoke test. Lint and formatting checks passed. Generated OpenAPI documentation includes typed intake, run, score, snapshot, approval and release responses.
 
 The complete offline demonstration passed against a real loopback HTTP API and a separate worker process. It also passed from the installable wheel in a separate virtual environment and working directory, verifying that rubric configuration and migrations are packaged and that the service does not depend on the source task's scratch files.

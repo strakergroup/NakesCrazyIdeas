@@ -4,6 +4,8 @@ A working standalone Python service that assesses immutable content versions, re
 
 **This is a provisional pilot.** Weights and thresholds are uncalibrated operating assumptions. The index is not a probability of correctness. Offline model fixtures demonstrate workflow and arithmetic, not model accuracy. This service is not connected to a company platform, SSO or a publishing system.
 
+**Arbitr stack review:** the [integration design for `cloud-product-y-mono`](docs/arbitr-stack-compatibility.md) was checked against its README and current gateway, worker and delivery code at commit `66025d47971cf436a75618887a49eb02584a7f2c`. The architecture fits as a separate FastAPI service. Production integration requires PostgreSQL/SQLAlchemy/Alembic, platform identity and project permissions, shared Redis event handling, and enforcement across all delivery paths. This review does not turn the SQLite pilot into an installed Arbitr service.
+
 ## Run the complete demonstration
 
 Requires Python 3.12 and [uv](https://docs.astral.sh/uv/). From this directory:

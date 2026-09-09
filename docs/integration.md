@@ -1,6 +1,8 @@
 # Platform integration contract
 
-The service is standalone and has been exercised through an executable local HTTP client and worker. No company repository, external generator or publisher was connected. Integrate at the platform's immutable content persistence boundary and its final publish/export/delivery boundary.
+The service is standalone and has been exercised through an executable local HTTP client and worker. The Arbitr repository was inspected read-only for the [stack-specific integration design](arbitr-stack-compatibility.md); no runtime connection to the company platform, external generator or publisher was made. Integrate at the platform's immutable content persistence boundary and its final publish/export/delivery boundary.
+
+For `cloud-product-y-mono`, follow that design: retain FastAPI/Python 3.12, port storage to the service's own PostgreSQL database with SQLAlchemy/Alembic, use Pipenv and the shared `arbitr-redis` library, and expose project-scoped operations through the existing gateway/orchestrator. The current SQLite credentials and job queue are local pilot implementations. Platform JWTs, Redis Streams and final delivery coordination need explicit adapters; they are not enabled by configuration alone.
 
 ## Authentication and roles
 
